@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    background-image: url("/assets/pexels-maxyne-barcel-10402282\ 1.png");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-attachment: fixed;
+  background-size: cover;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+nav ul li img{
+    margin-left: 55px;
+    height: 90%;
+    width: 65%;
+    margin-top: 5px;
+}
+nav ul nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+}
+nav ul nav li a{
+    text-decoration: none;
+    list-style: none;
+    color: #ffc228;
+    font-family: serif;
+    font-weight: 900;
+    font-size: 18px;
+}
+nav ul li button{
+    background-color:#ff515f;
+    border: none;
+    font-size: 18px;
+    color: #fff2f2;
+    font-weight: 900;
+    padding: 12px 43px;
+    margin-right: 55px;
+    margin-top: 5px;
+}
+/**********************************  main section *******************************************************************************/
+main{
+    display: grid;
+    justify-content: space-evenly;
+    margin-top: 75px;
+}
+main h1{
+    font-size: 100px;
+    font-weight: 900;
+    font-family: sans-serif;
+    justify-self: center;
+    line-height: 1;
+     color: #ffc228;
+}
+main div button{
+    background-color:#ff515f;
+    border: none;
+    font-size: 18px;
+    color: #fff2f2;
+    font-weight: 900;
+    padding: 12px 28px;
+    margin-top: 30px;
+   margin-left: 350px;
+    
+
+}
+/********************************************** Footer section*********************************** */
+.footer-cont{
+    margin-left: 1324px;
+    margin-bottom: 22px;
+    height: 22%;
+
+}
