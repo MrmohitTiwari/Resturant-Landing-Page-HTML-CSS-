@@ -5,7 +5,8 @@
     overflow: hidden;
 }
 body{
-    background-image: url("/assets/pexels-maxyne-barcel-10402282\ 1.png");
+    background-color: #bceaf7;
+    background-image: url("../assets/pexels-maxyne-barcel-10402282\ 1.png");
     background-repeat: no-repeat; /* Do not repeat the image */
     background-attachment: fixed;
   background-size: cover;
